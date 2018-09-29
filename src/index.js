@@ -6,8 +6,29 @@ import "./styles.css";
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <form action="">
+        <p>
+          <input name type="text" />
+        </p>
+        <p>
+          <input name type="password" />
+        </p>
+        <p>
+          <textarea name="" />
+        </p>
+        <p>
+          <input name type="number" />
+        </p>
+        <p>
+          <input name type="checkbox" />
+        </p>
+        <p>
+          <input name type="radio" />
+        </p>
+        <p>
+          <input type="submit" value="Submit" />
+        </p>
+      </form>
     </div>
   );
 }
